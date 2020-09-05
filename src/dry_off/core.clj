@@ -1,6 +1,7 @@
-(ns dryocopus-officium.core
+(ns dry-off.core
   (:require [lambdaisland.uri :refer [uri]]
-            [clojure.java.io :as io])
+            [clojure.java.io :as io]
+            [dry-off.notify :as notify])
   (:gen-class))
 
 

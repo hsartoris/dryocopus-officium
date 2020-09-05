@@ -1,4 +1,4 @@
-(ns dryocopus-officium.scrape
+(ns dry-off.scrape
   (:require [lambdaisland.uri :refer [uri]]
             [clojure.java.io :as io]
             [hickory.core :as h]
