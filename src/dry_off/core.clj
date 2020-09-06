@@ -1,7 +1,8 @@
 (ns dry-off.core
   (:require [lambdaisland.uri :refer [uri]]
             [clojure.java.io :as io]
-            [dry-off.notify :as notify])
+            [dry-off.notify :as notify]
+            [clojure.pprint :refer [pprint]])
   (:gen-class))
 
 
